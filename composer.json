@@ -2,11 +2,33 @@
     "name": "typo3/flow-base-distribution",
     "description" : "TYPO3 Flow Base Distribution",
     "license": "LGPL-3.0+",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/asta-kit/AstaKit.FriWahl.AdminInterface.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git://github.com/asta-kit/AstaKit.FriWahl.Core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git://github.com/asta-kit/AstaKit.FriWahl.BallotBoxBackend.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git://github.com/asta-kit/AstaKit.FriWahl.VoterDirectory.git"
+        }
+    ],
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
     "require": {
+        "astakit/friwahl-admininterface": "@dev",
+        "astakit/friwahl-ballotboxbackend": "@dev",
+        "astakit/friwahl-core": "@dev",
+        "astakit/friwahl-voterdirectory": "@dev",
         "typo3/flow": "2.1.*",
         "typo3/welcome": "2.1.*",
         "doctrine/migrations": "@dev"
