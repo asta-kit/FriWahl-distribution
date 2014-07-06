@@ -18,6 +18,10 @@
         {
             "type": "vcs",
             "url": "git://github.com/asta-kit/AstaKit.FriWahl.VoterDirectory.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git://github.com/andreaswolf/TYPO3.Flow.git"
         }
     ],
     "config": {
@@ -29,7 +33,7 @@
         "astakit/friwahl-ballotboxbackend": "@dev",
         "astakit/friwahl-core": "@dev",
         "astakit/friwahl-voterdirectory": "@dev",
-        "typo3/flow": "2.1.*",
+        "typo3/flow": "dev-friwahl-develop as 2.1.x-dev",
         "typo3/welcome": "2.1.*",
         "doctrine/migrations": "@dev"
     },
