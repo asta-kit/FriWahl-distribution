@@ -967,11 +967,11 @@
         },
         {
             "name": "typo3/eel",
-            "version": "2.1.2",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
-                "url": "git://git.typo3.org/Packages/TYPO3.Eel.git",
-                "reference": "1cec591fb877863922fe4bb5593c31ef23492c02"
+                "url": "https://github.com/neos/eel.git",
+                "reference": "b6179055524b809c43f929384ed5edf279c8865f"
             },
             "require": {
                 "typo3/flow": "2.1.*"
@@ -1040,11 +1040,11 @@
         },
         {
             "name": "typo3/fluid",
-            "version": "2.1.2",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
-                "url": "git://git.typo3.org/Packages/TYPO3.Fluid.git",
-                "reference": "a411f3d12cf2aab6d417df9bd4314d345d94d90d"
+                "url": "https://github.com/neos/fluid.git",
+                "reference": "7164b0f0071f533ca33414ee5acda1ade90f8a7d"
             },
             "require": {
                 "typo3/flow": "2.1.*"
@@ -1067,7 +1067,7 @@
             "version": "2.1.2",
             "source": {
                 "type": "git",
-                "url": "git://git.typo3.org/Packages/TYPO3.Party.git",
+                "url": "https://github.com/neos/party.git",
                 "reference": "775576b98f46db85a25e4799e91e028d7c2ec95f"
             },
             "require": {
@@ -2033,7 +2033,7 @@
             "version": "2.1.2",
             "source": {
                 "type": "git",
-                "url": "git://git.typo3.org/Flow/BuildEssentials.git",
+                "url": "https://github.com/neos/BuildEssentials.git",
                 "reference": "08109149770624791278e9e726baee85bebb5b81"
             },
             "require": {
@@ -2055,7 +2055,7 @@
             "version": "2.1.2",
             "source": {
                 "type": "git",
-                "url": "git://git.typo3.org/Packages/TYPO3.Kickstart.git",
+                "url": "https://github.com/neos/kickstart.git", 
                 "reference": "a9cbf7e2e386cf58edfbc519688054e6e29fd12f"
             },
             "require": {
@@ -2079,7 +2079,7 @@
             "version": "2.1.2",
             "source": {
                 "type": "git",
-                "url": "git://git.typo3.org/Packages/TYPO3.Welcome.git",
+                "url": "https://github.com/neos/flow-welcome.git",
                 "reference": "8a871b78f56834520f2eb7d1ff227a28a8a5ad06"
             },
             "require": {

@@ -5,23 +5,23 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git://github.com/asta-kit/AstaKit.FriWahl.AdminInterface.git"
+            "url": "https://github.com/asta-kit/AstaKit.FriWahl.AdminInterface.git"
         },
         {
             "type": "vcs",
-            "url": "git://github.com/asta-kit/AstaKit.FriWahl.Core.git"
+            "url": "https://github.com/asta-kit/AstaKit.FriWahl.Core.git"
         },
         {
             "type": "vcs",
-            "url": "git://github.com/asta-kit/AstaKit.FriWahl.BallotBoxBackend.git"
+            "url": "https://github.com/asta-kit/AstaKit.FriWahl.BallotBoxBackend.git"
         },
         {
             "type": "vcs",
-            "url": "git://github.com/asta-kit/AstaKit.FriWahl.VoterDirectory.git"
+            "url": "https://github.com/asta-kit/AstaKit.FriWahl.VoterDirectory.git"
         },
         {
             "type": "vcs",
-            "url": "git://github.com/andreaswolf/TYPO3.Flow.git"
+            "url": "https://github.com/andreaswolf/TYPO3.Flow.git"
         }
     ],
     "config": {
@@ -35,7 +35,7 @@
         "astakit/friwahl-voterdirectory": "@dev",
         "typo3/flow": "dev-friwahl-develop as 2.1.x-dev",
         "typo3/welcome": "2.1.*",
-        "doctrine/migrations": "@dev"
+        "doctrine/migrations": "1.0.0 as dev-master as 1.0.0-dev"
     },
     "require-dev": {
         "typo3/kickstart": "2.1.*",
