@@ -24,6 +24,7 @@
             "url": "https://github.com/andreaswolf/TYPO3.Flow.git"
         }
     ],
+    "minimum-stability":"dev",
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
@@ -35,9 +36,7 @@
         "astakit/friwahl-voterdirectory": "@dev",
         "typo3/flow": "dev-friwahl-develop as 2.1.x-dev",
         "typo3/welcome": "2.1.*",
-        "doctrine/migrations": "1.0.0 as dev-master as 1.0.0-dev"
-    },
-    "require-dev": {
+        "doctrine/migrations": "1.0.x-dev as dev-master",
         "typo3/kickstart": "2.1.*",
         "typo3/buildessentials": "2.1.*",
         "mikey179/vfsstream": "1.2.*"

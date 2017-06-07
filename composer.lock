@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6481e2918d44e11b7ee36e61fb4cffd",
+    "hash": "063e1281ea37171684b4e1d6a7a4b3eb",
+    "content-hash": "03dd97f551013952aa0bfd354a4f07cb",
     "packages": [
         {
             "name": "astakit/friwahl-admininterface",
@@ -629,6 +630,60 @@
             "time": "2013-01-10 21:49:15"
         },
         {
+            "name": "doctrine/instantiator",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/f976e5de371104877ebc89bd8fecb0019ed9c119",
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3,<8.0-DEV"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1.8",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "2.0.*@ALPHA"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Instantiator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.com/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://github.com/doctrine/instantiator",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "time": "2014-10-13 12:58:55"
+        },
+        {
             "name": "doctrine/lexer",
             "version": "v1.0",
             "source": {
@@ -810,337 +865,6 @@
                 "orm"
             ],
             "time": "2014-02-08 16:28:24"
-        },
-        {
-            "name": "symfony/console",
-            "version": "v2.4.4",
-            "target-dir": "Symfony/Component/Console",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/Console.git",
-                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/2e452005b1e1d003d23702d227e23614679eb5ca",
-                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "symfony/event-dispatcher": "~2.1"
-            },
-            "suggest": {
-                "symfony/event-dispatcher": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Console\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Console Component",
-            "homepage": "http://symfony.com",
-            "time": "2014-04-27 13:34:57"
-        },
-        {
-            "name": "symfony/dom-crawler",
-            "version": "v2.2.11",
-            "target-dir": "Symfony/Component/DomCrawler",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "64d6ffc84d8c9dd7673539f9e3c6c9b5521a497e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/64d6ffc84d8c9dd7673539f9e3c6c9b5521a497e",
-                "reference": "64d6ffc84d8c9dd7673539f9e3c6c9b5521a497e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "symfony/css-selector": "~2.0"
-            },
-            "suggest": {
-                "symfony/css-selector": "2.2.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\DomCrawler\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony DomCrawler Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-11-29 05:58:12"
-        },
-        {
-            "name": "symfony/yaml",
-            "version": "v2.1.13",
-            "target-dir": "Symfony/Component/Yaml",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/Yaml.git",
-                "reference": "347a7a02204433c6926ecc3f13e805bdc30e8f9f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/347a7a02204433c6926ecc3f13e805bdc30e8f9f",
-                "reference": "347a7a02204433c6926ecc3f13e805bdc30e8f9f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Yaml": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Yaml Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-05-10 00:09:46"
-        },
-        {
-            "name": "typo3/eel",
-            "version": "2.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/eel.git",
-                "reference": "b6179055524b809c43f929384ed5edf279c8865f"
-            },
-            "require": {
-                "typo3/flow": "2.1.*"
-            },
-            "type": "typo3-flow-framework",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Eel": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0+"
-            ],
-            "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
-            "time": "2013-12-12 17:36:05"
-        },
-        {
-            "name": "typo3/flow",
-            "version": "dev-friwahl-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/andreaswolf/TYPO3.Flow.git",
-                "reference": "14e5645c4f2b08f2179bfd53c4ff78babcd59062"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/andreaswolf/TYPO3.Flow/zipball/14e5645c4f2b08f2179bfd53c4ff78babcd59062",
-                "reference": "14e5645c4f2b08f2179bfd53c4ff78babcd59062",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0.2",
-                "doctrine/migrations": "dev-master",
-                "doctrine/orm": "2.3.*",
-                "ext-json": ">=1.2.0",
-                "ext-session": "*",
-                "ext-spl": "*",
-                "ext-zlib": "*",
-                "php": ">=5.3.2",
-                "symfony/dom-crawler": "2.2.*",
-                "symfony/yaml": "2.1.*",
-                "typo3/eel": "2.1.*",
-                "typo3/fluid": "2.1.*",
-                "typo3/party": "2.1.*"
-            },
-            "suggest": {
-                "doctrine/data-fixtures": "To manage and execute the loading of data fixtures for the Doctrine ORM or ODM"
-            },
-            "type": "typo3-flow-framework",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Flow": "Classes"
-                }
-            },
-            "license": [
-                "LGPL-3.0+"
-            ],
-            "description": "TYPO3 Flow Application Framework",
-            "homepage": "http://flow.typo3.org",
-            "support": {
-                "source": "https://github.com/andreaswolf/TYPO3.Flow/tree/friwahl-develop",
-                "issues": "https://github.com/andreaswolf/TYPO3.Flow/issues"
-            },
-            "time": "2014-07-08 07:01:25"
-        },
-        {
-            "name": "typo3/fluid",
-            "version": "2.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/fluid.git",
-                "reference": "7164b0f0071f533ca33414ee5acda1ade90f8a7d"
-            },
-            "require": {
-                "typo3/flow": "2.1.*"
-            },
-            "type": "typo3-flow-framework",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Fluid": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0+"
-            ],
-            "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
-            "time": "2014-03-14 13:37:42"
-        },
-        {
-            "name": "typo3/party",
-            "version": "2.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/party.git",
-                "reference": "775576b98f46db85a25e4799e91e028d7c2ec95f"
-            },
-            "require": {
-                "typo3/flow": "2.1.*"
-            },
-            "type": "typo3-flow-framework",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Party": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0+"
-            ],
-            "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
-            "time": "2013-12-10 15:54:30"
-        }
-    ],
-    "packages-dev": [
-        {
-            "name": "doctrine/instantiator",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/f976e5de371104877ebc89bd8fecb0019ed9c119",
-                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3,<8.0-DEV"
-            },
-            "require-dev": {
-                "athletic/athletic": "~0.1.8",
-                "ext-pdo": "*",
-                "ext-phar": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "2.0.*@ALPHA"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Doctrine\\Instantiator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com",
-                    "homepage": "http://ocramius.github.com/"
-                }
-            ],
-            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
-            "homepage": "https://github.com/doctrine/instantiator",
-            "keywords": [
-                "constructor",
-                "instantiate"
-            ],
-            "time": "2014-10-13 12:58:55"
         },
         {
             "name": "mikey179/vfsStream",
@@ -2029,6 +1753,160 @@
             "time": "2015-02-24 06:35:25"
         },
         {
+            "name": "symfony/console",
+            "version": "v2.4.4",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/2e452005b1e1d003d23702d227e23614679eb5ca",
+                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-04-27 13:34:57"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v2.2.11",
+            "target-dir": "Symfony/Component/DomCrawler",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "64d6ffc84d8c9dd7673539f9e3c6c9b5521a497e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/64d6ffc84d8c9dd7673539f9e3c6c9b5521a497e",
+                "reference": "64d6ffc84d8c9dd7673539f9e3c6c9b5521a497e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/css-selector": "~2.0"
+            },
+            "suggest": {
+                "symfony/css-selector": "2.2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DomCrawler Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-11-29 05:58:12"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.1.13",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "347a7a02204433c6926ecc3f13e805bdc30e8f9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/347a7a02204433c6926ecc3f13e805bdc30e8f9f",
+                "reference": "347a7a02204433c6926ecc3f13e805bdc30e8f9f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-05-10 00:09:46"
+        },
+        {
             "name": "typo3/buildessentials",
             "version": "2.1.2",
             "source": {
@@ -2051,12 +1929,116 @@
             "time": "2014-03-25 15:50:47"
         },
         {
-            "name": "typo3/kickstart",
-            "version": "2.1.2",
+            "name": "typo3/eel",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/neos/kickstart.git", 
-                "reference": "a9cbf7e2e386cf58edfbc519688054e6e29fd12f"
+                "url": "https://github.com/neos/eel.git",
+                "reference": "b6179055524b809c43f929384ed5edf279c8865f"
+            },
+            "require": {
+                "typo3/flow": "2.1.*"
+            },
+            "type": "typo3-flow-framework",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Eel": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
+            "abandoned": "neos/eel",
+            "time": "2013-12-12 17:36:05"
+        },
+        {
+            "name": "typo3/flow",
+            "version": "dev-friwahl-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andreaswolf/TYPO3.Flow.git",
+                "reference": "14e5645c4f2b08f2179bfd53c4ff78babcd59062"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andreaswolf/TYPO3.Flow/zipball/14e5645c4f2b08f2179bfd53c4ff78babcd59062",
+                "reference": "14e5645c4f2b08f2179bfd53c4ff78babcd59062",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.2",
+                "doctrine/migrations": "dev-master",
+                "doctrine/orm": "2.3.*",
+                "ext-json": ">=1.2.0",
+                "ext-session": "*",
+                "ext-spl": "*",
+                "ext-zlib": "*",
+                "php": ">=5.3.2",
+                "symfony/dom-crawler": "2.2.*",
+                "symfony/yaml": "2.1.*",
+                "typo3/eel": "2.1.*",
+                "typo3/fluid": "2.1.*",
+                "typo3/party": "2.1.*"
+            },
+            "suggest": {
+                "doctrine/data-fixtures": "To manage and execute the loading of data fixtures for the Doctrine ORM or ODM"
+            },
+            "type": "typo3-flow-framework",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Flow": "Classes"
+                }
+            },
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "TYPO3 Flow Application Framework",
+            "homepage": "http://flow.typo3.org",
+            "support": {
+                "source": "https://github.com/andreaswolf/TYPO3.Flow/tree/friwahl-develop",
+                "issues": "https://github.com/andreaswolf/TYPO3.Flow/issues"
+            },
+            "time": "2014-07-08 07:01:25"
+        },
+        {
+            "name": "typo3/fluid",
+            "version": "2.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neos/fluid.git",
+                "reference": "7164b0f0071f533ca33414ee5acda1ade90f8a7d"
+            },
+            "require": {
+                "typo3/flow": "2.1.*"
+            },
+            "type": "typo3-flow-framework",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Fluid": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
+            "time": "2014-03-14 13:37:42"
+        },
+        {
+            "name": "typo3/kickstart",
+            "version": "2.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neos/kickstart.git",
+                "reference": "eac76124e78cb180439babbcfc6fa5efe910e2d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neos/kickstart/zipball/eac76124e78cb180439babbcfc6fa5efe910e2d4",
+                "reference": "eac76124e78cb180439babbcfc6fa5efe910e2d4",
+                "shasum": ""
             },
             "require": {
                 "typo3/flow": "2.1.*"
@@ -2072,7 +2054,33 @@
                 "LGPL-3.0+"
             ],
             "description": "A simple generator for controller and views.",
-            "time": "2013-10-21 13:48:20"
+            "abandoned": "neos/kickstarter",
+            "time": "2014-02-14 09:04:00"
+        },
+        {
+            "name": "typo3/party",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neos/party.git",
+                "reference": "775576b98f46db85a25e4799e91e028d7c2ec95f"
+            },
+            "require": {
+                "typo3/flow": "2.1.*"
+            },
+            "type": "typo3-flow-framework",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Party": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
+            "abandoned": "neos/party",
+            "time": "2013-12-10 15:54:30"
         },
         {
             "name": "typo3/welcome",
@@ -2080,7 +2088,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/flow-welcome.git",
-                "reference": "8a871b78f56834520f2eb7d1ff227a28a8a5ad06"
+                "reference": "2bf789f5a736ff0fbf4a00a4d9965caf947e9eec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neos/flow-welcome/zipball/2bf789f5a736ff0fbf4a00a4d9965caf947e9eec",
+                "reference": "2bf789f5a736ff0fbf4a00a4d9965caf947e9eec",
+                "shasum": ""
             },
             "require": {
                 "typo3/flow": "2.1.*"
@@ -2096,25 +2110,32 @@
                 "LGPL-3.0+"
             ],
             "description": "This package provides a start screen for the TYPO3 Flow distribution with links to online resources.",
+            "abandoned": "neos/welcome",
             "time": "2013-12-10 15:54:30"
         }
     ],
+    "packages-dev": [],
     "aliases": [
         {
             "alias": "2.1.x-dev",
             "alias_normalized": "2.1.9999999.9999999-dev",
             "version": "dev-friwahl-develop",
             "package": "typo3/flow"
+        },
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "1.0.9999999.9999999-dev",
+            "package": "doctrine/migrations"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "astakit/friwahl-admininterface": 20,
         "astakit/friwahl-ballotboxbackend": 20,
         "astakit/friwahl-core": 20,
         "astakit/friwahl-voterdirectory": 20,
         "typo3/flow": 20,
-        "typo3/couchdb": 20,
         "doctrine/migrations": 20
     },
     "prefer-stable": false,
